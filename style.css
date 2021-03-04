@@ -1,0 +1,53 @@
+.navbar {
+  padding: 0px;
+}
+.grey-text {
+  color: grey;
+  text-align: right;
+}
+.huge-title {
+  margin-top: 8%;
+  font-size: 5rem;
+  margin-left: 4rem;
+  text-align: left;
+}
+.call-me {
+  text-align: right;
+  color: white;
+}
+.logo {
+  height: 10rem;
+}
+.contact-text {
+  text-align: center;
+}
+.contact-with-me {
+  display: flex;
+  justify-content: right;
+}
+.hide {
+  display: none;
+}
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar {
+  padding: 0.5rem 0;
+}
+@media (max-width: 700px) {
+  .huge-title {
+    font-size: 4rem;
+    margin-left: 1rem;
+    margin-top: 1%;
+  }
+  .desktop-show {
+    display: initial;
+  }
+  .logo {
+    height: 6rem;
+  }
+  .contact-with-me {
+    display: inline;
+  }
+}
